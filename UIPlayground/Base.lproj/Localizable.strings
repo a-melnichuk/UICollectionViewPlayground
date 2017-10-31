@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  UIPlayground
+
+  Created by Alex Melnichuk on 10/28/17.
+  Copyright © 2017 Alex Melnichuk. All rights reserved.
+*/
+
+
+"Form title" = "Form with databinding";
+"Form email label" = "Email";
+"Form email text hint" = "Enter your email";
+"Form name label" = "Name";
+"Form name hint" = "Enter your name";

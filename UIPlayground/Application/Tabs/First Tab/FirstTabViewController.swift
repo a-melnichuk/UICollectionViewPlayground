@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FirstTabViewController.swift
 //  UIPlayground
 //
 //  Created by Alex Melnichuk on 10/24/17.
@@ -7,19 +7,17 @@
 //
 
 import UIKit
-
-class ViewController: UIViewController {
+import os.log
+class FirstTabViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        os_log("First tab1")
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
-
