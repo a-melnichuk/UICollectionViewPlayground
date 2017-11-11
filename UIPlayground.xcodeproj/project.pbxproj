@@ -25,6 +25,13 @@
 		660EAD901FA4AB2800D959A0 /* LocalizedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660EAD8F1FA4AB2800D959A0 /* LocalizedTextField.swift */; };
 		660EAD971FA5009000D959A0 /* MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660EAD961FA5009000D959A0 /* MVVM.swift */; };
 		660EAD991FA5229900D959A0 /* ReactiveExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660EAD981FA5229900D959A0 /* ReactiveExtensions.swift */; };
+		660FD8821FADBE5400819B4B /* MyCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660FD8811FADBE5400819B4B /* MyCustomView.swift */; };
+		660FD8841FADBE9900819B4B /* OneBigTwoSmallGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660FD8831FADBE9900819B4B /* OneBigTwoSmallGridLayout.swift */; };
+		660FD8861FAE3D4200819B4B /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660FD8851FAE3D4200819B4B /* MyCollectionViewController.swift */; };
+		660FD8881FAE3D4E00819B4B /* Collection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660FD8871FAE3D4E00819B4B /* Collection.storyboard */; };
+		660FD88A1FAE3EE300819B4B /* MyCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660FD8891FAE3EE300819B4B /* MyCollectionViewModel.swift */; };
+		660FD88C1FAE403000819B4B /* CollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660FD88B1FAE403000819B4B /* CollectionItem.swift */; };
+		660FD88E1FAE425A00819B4B /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660FD88D1FAE425A00819B4B /* MyCollectionViewCell.swift */; };
 		667806E71FA27ED500193067 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667806E61FA27ED500193067 /* FormViewController.swift */; };
 		667806EB1FA27EFE00193067 /* FormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667806EA1FA27EFE00193067 /* FormViewModel.swift */; };
 		AC706E9BC1AE6CCAC416BF1C /* Pods_UIPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DFBCD9859A51CA0AB7170FA /* Pods_UIPlayground.framework */; };
@@ -55,6 +62,13 @@
 		660EAD8F1FA4AB2800D959A0 /* LocalizedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedTextField.swift; sourceTree = "<group>"; };
 		660EAD961FA5009000D959A0 /* MVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM.swift; sourceTree = "<group>"; };
 		660EAD981FA5229900D959A0 /* ReactiveExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveExtensions.swift; sourceTree = "<group>"; };
+		660FD8811FADBE5400819B4B /* MyCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomView.swift; sourceTree = "<group>"; };
+		660FD8831FADBE9900819B4B /* OneBigTwoSmallGridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneBigTwoSmallGridLayout.swift; sourceTree = "<group>"; };
+		660FD8851FAE3D4200819B4B /* MyCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
+		660FD8871FAE3D4E00819B4B /* Collection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Collection.storyboard; sourceTree = "<group>"; };
+		660FD8891FAE3EE300819B4B /* MyCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewModel.swift; sourceTree = "<group>"; };
+		660FD88B1FAE403000819B4B /* CollectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionItem.swift; sourceTree = "<group>"; };
+		660FD88D1FAE425A00819B4B /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		667806E61FA27ED500193067 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		667806EA1FA27EFE00193067 /* FormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModel.swift; sourceTree = "<group>"; };
 		7DFBCD9859A51CA0AB7170FA /* Pods_UIPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,7 +167,7 @@
 			children = (
 				667806E51FA27EB100193067 /* Form */,
 				66035E4F1F9FB46600124259 /* SegmentedControl */,
-				66035E4E1F9FB10600124259 /* TableView */,
+				66035E4E1F9FB10600124259 /* CollectionView */,
 				66035E4D1F9FB0FB00124259 /* Pages */,
 				66035E4C1F9FB0F400124259 /* Tabs */,
 				66035E291F9FA60C00124259 /* AppDelegate.swift */,
@@ -185,6 +199,7 @@
 		66035E441F9FA97A00124259 /* Local */ = {
 			isa = PBXGroup;
 			children = (
+				660FD88B1FAE403000819B4B /* CollectionItem.swift */,
 			);
 			path = Local;
 			sourceTree = "<group>";
@@ -200,6 +215,8 @@
 			isa = PBXGroup;
 			children = (
 				660EAD8D1FA4A64C00D959A0 /* LocalizedLabel.swift */,
+				660FD8811FADBE5400819B4B /* MyCustomView.swift */,
+				660FD8831FADBE9900819B4B /* OneBigTwoSmallGridLayout.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -247,11 +264,15 @@
 			path = Pages;
 			sourceTree = "<group>";
 		};
-		66035E4E1F9FB10600124259 /* TableView */ = {
+		66035E4E1F9FB10600124259 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				660FD8851FAE3D4200819B4B /* MyCollectionViewController.swift */,
+				660FD88D1FAE425A00819B4B /* MyCollectionViewCell.swift */,
+				660FD8871FAE3D4E00819B4B /* Collection.storyboard */,
+				660FD8891FAE3EE300819B4B /* MyCollectionViewModel.swift */,
 			);
-			path = TableView;
+			path = CollectionView;
 			sourceTree = "<group>";
 		};
 		66035E4F1F9FB46600124259 /* SegmentedControl */ = {
@@ -353,6 +374,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				660FD8881FAE3D4E00819B4B /* Collection.storyboard in Resources */,
 				66035E5B1F9FCCAD00124259 /* Tabs.storyboard in Resources */,
 				660EAD821FA4968800D959A0 /* Localizable.strings in Resources */,
 				660EAD881FA49EF000D959A0 /* Form.storyboard in Resources */,
@@ -431,13 +453,19 @@
 				667806E71FA27ED500193067 /* FormViewController.swift in Sources */,
 				660EAD901FA4AB2800D959A0 /* LocalizedTextField.swift in Sources */,
 				660EAD971FA5009000D959A0 /* MVVM.swift in Sources */,
+				660FD8821FADBE5400819B4B /* MyCustomView.swift in Sources */,
 				66035E5D1F9FCD9900124259 /* TabsViewController.swift in Sources */,
 				66035E601F9FDC3000124259 /* FirstTabViewController.swift in Sources */,
+				660FD88A1FAE3EE300819B4B /* MyCollectionViewModel.swift in Sources */,
 				66035E2A1F9FA60C00124259 /* AppDelegate.swift in Sources */,
+				660FD88C1FAE403000819B4B /* CollectionItem.swift in Sources */,
 				667806EB1FA27EFE00193067 /* FormViewModel.swift in Sources */,
+				660FD8861FAE3D4200819B4B /* MyCollectionViewController.swift in Sources */,
 				660BA4C51FA7AA7E00090242 /* PagesViewController.swift in Sources */,
+				660FD8841FADBE9900819B4B /* OneBigTwoSmallGridLayout.swift in Sources */,
 				660EAD871FA4978200D959A0 /* String+Extenstion.swift in Sources */,
 				660EAD8E1FA4A64C00D959A0 /* LocalizedLabel.swift in Sources */,
+				660FD88E1FAE425A00819B4B /* MyCollectionViewCell.swift in Sources */,
 				66035E571F9FC10300124259 /* MainTableViewController.swift in Sources */,
 				660EAD991FA5229900D959A0 /* ReactiveExtensions.swift in Sources */,
 				66035E531F9FB7BD00124259 /* MainViewModel.swift in Sources */,

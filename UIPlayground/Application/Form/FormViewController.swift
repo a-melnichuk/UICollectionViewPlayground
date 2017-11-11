@@ -22,8 +22,13 @@ class FormViewController: UIViewController, UITextFieldDelegate, BaseView {
     var signal: SafeSignal<Bool>!
     // MARK: UITextFieldDelegate
     
+    func getNullableAnna() -> Any? {
+        return nil
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         nameTextField.delegate = self
         
         signal = emailTextField.textViewDidEndEditing

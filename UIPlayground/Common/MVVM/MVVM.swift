@@ -14,9 +14,17 @@ protocol BaseView : class {
 
 class BaseViewModel<T: BaseView> {
     
-    unowned let view: T
+    weak var view: T?
     
     init(_ view: T) {
         self.view = view
     }
+    
+    func onUI(callback: (T) -> Void) {
+        guard let view = self.view else {
+            return
+        }
+        callback(view)
+    }
+    
 }
